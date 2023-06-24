@@ -6,7 +6,7 @@ except:
   import quart
 from quart import Quart,redirect,render_template
 
-
+print("Started")
 
 app = Quart(__name__ )#,static_url_path='/static')
 
